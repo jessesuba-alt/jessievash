@@ -73,9 +73,7 @@ export default function HeroSection() {
     },
     ...transitionVariants,
   }}
->
-                                    className="mt-12 flex items-center gap-2"
-                                    <div
+>                                    <div
                                         key={1}
                                         className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
                                         <Button
