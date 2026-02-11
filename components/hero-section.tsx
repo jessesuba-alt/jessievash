@@ -49,7 +49,7 @@ export default function HeroSection() {
                                     speedSegment={0.3}
                                     as="h1"
                                     className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16">
-                                    Maligayang Pagdating sa Kampon ni Jess
+                                    Maligayang Pagdating sa K ni Jess
                                 </TextEffect>
                                 <TextEffect
                                     per="line"
@@ -62,18 +62,19 @@ export default function HeroSection() {
                                 </TextEffect>
 
                                 <AnimatedGroup
-                                    variants={{
-                                        container: {
-                                            visible: {
-                                                transition: {
-                                                    staggerChildren: 0.05,
-                                                    delayChildren: 0.75,
-                                                },
-                                            },
-                                        },
-                                        ...transitionVariants,
-                                    }}
-                                    className="mt-12 flex items-center gap-2">
+                                variants={{
+    container: {
+      visible: {
+        transition: {
+          staggerChildren: 0.05,
+          delayChildren: 0.75,
+        },
+      },
+    },
+    ...transitionVariants,
+  }}
+>
+                                    className="mt-12 flex items-center gap-2"
                                     <div
                                         key={1}
                                         className="bg-foreground/10 rounded-[calc(var(--radius-xl)+0.125rem)] border p-0.5">
